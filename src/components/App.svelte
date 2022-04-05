@@ -13,7 +13,8 @@
 <!-- <Footer /> -->
 <style>
   .container {
-    max-width: 85%;
+    width: 85%;
+    max-width: 880px;
     padding: 1rem;
     margin: 0 auto;
     background-color: black;

@@ -1,12 +1,15 @@
 <script>
   import rows from "../data/sheet.csv";
   import Entry from "$components/Entry.svelte";
+  import App from "./App.svelte";
 </script>
 
 {#each rows as r}
-  <div class="entry">
-    <Entry data={r} />
-  </div>
+  {#if r.name != ""}
+    <div class="entry">
+      <Entry data={r} />
+    </div>
+  {/if}
 {/each}
 
 <style>

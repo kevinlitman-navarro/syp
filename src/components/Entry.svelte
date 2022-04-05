@@ -1,8 +1,23 @@
 <script>
   import rows from "../data/sheet.csv";
   export let data;
+  const placeholder = "–";
+  let keys = Object.keys(data);
+  console.log(keys);
+  let key;
+  if (data) {
+    for (key of keys) {
+      console.log(key);
+      console.log(data[key]);
+      if (data[key] == "#N/A") {
+        console.log("got it");
+        data[key] = "–";
+      }
+    }
+  }
 </script>
 
+<!-- {#if data.name != "#N/A" || data.name != "-"} -->
 <h1>{data.name}</h1>
 <p class="blurb">{data.phrase}</p>
 <p class="eyebrow">BIO</p>
@@ -14,6 +29,7 @@
 <p class="blurb phone">{data.phone}</p>
 <div class="line" />
 
+<!-- {/if} -->
 <style>
   h1 {
     color: #fa9f4b;
