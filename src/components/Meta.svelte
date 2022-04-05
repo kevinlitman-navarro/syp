@@ -1,7 +1,7 @@
 <script>
-  export let title = "Title TK";
+  export let title = "SYP Mill Valley";
   export let description = "Description TK";
-  export let url = "https://pudding.cool";
+  export let url = "https://sypartners.com";
   export let keywords = "";
   export let preloadFont = [];
 </script>
@@ -11,11 +11,11 @@
   <meta http-equiv="refresh" content="300" />
 
   <meta name="description" content={description} />
-  <meta name="author" content="The Pudding" />
+  <meta name="author" content="SYPartners" />
   <meta name="news_keywords" content={keywords} />
 
   <meta property="og:title" content={title} />
-  <meta property="og:site_name" content="The Pudding" />
+  <meta property="og:site_name" content="SYPartners" />
   <meta property="og:url" content={url} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="article" />
