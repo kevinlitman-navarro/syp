@@ -10,8 +10,7 @@ def git_push():
         repo.index.commit(COMMIT_MESSAGE)
         origin = repo.remote(name='origin')
         origin.push()
-    except
-    Exception as e: 
+    except Exception as e:
         print(e)
 
 git_push()
