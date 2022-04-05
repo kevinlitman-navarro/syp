@@ -1,5 +1,5 @@
 import StyleDictionary from "style-dictionary";
-const CWD = process.cwd();
+const CWD = 'syp';
 
 StyleDictionary.extend({
 	source: [`${CWD}/properties/**/*.json`],

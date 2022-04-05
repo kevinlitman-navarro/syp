@@ -8,5 +8,7 @@
     color: #ffffff;
     text-align: center;
     font-size: 0.85em;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 </style>
