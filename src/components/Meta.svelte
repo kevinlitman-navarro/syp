@@ -35,7 +35,9 @@
 
   <meta name="robots" content="max-image-preview:large" />
 
-  <link rel="canonical" href="https://www.sypartners.com/" />
+  <!-- <link rel="canonical" href="https://www.sypartners.com/" /> -->
+  <link rel="" src="../static/assets/square.jpeg" />
+
 
   {#each preloadFont as href}
     <link rel="preload" {href} as="font" type="font/woff2" crossorigin />
