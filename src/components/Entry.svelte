@@ -7,7 +7,7 @@
   if (data) {
     for (key of keys) {
       if (data[key] == "#N/A") {
-        console.log("got it");
+        
         data[key] = "–";
       }
     }
@@ -17,7 +17,7 @@
 <!-- {#if data.name != "#N/A" || data.name != "-"} -->
 <h1>{data.name}</h1>
 <p class="blurb">{data.phrase}</p>
-<p class="eyebrow">BIO</p>
+<p class="eyebrow">ABOUT</p>
 <p class="blurb">{data.bio}</p>
 <p class="eyebrow">CREATIONS, PASSIONS, PROJECTS, AND ENDEAVORS</p>
 <p class="blurb">{data.projects}</p>
@@ -53,6 +53,7 @@
     font-family: var(--eyebrow);
     font-size: 0.8em;
     margin-bottom: 1em;
+    text-decoration: underline;
   }
 
   .blurb {

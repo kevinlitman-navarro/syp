@@ -1,5 +1,5 @@
 <p class='top'>APRIL 5, 2022 • MILL VALLEY, CALIFORNIA</p>
-<p>SUBMIT YOUR INFORMATION <a href='https://syp-nystrategy.typeform.com/to/eupY6hSO'>HERE</a></p>
+<p>Submit your personal information <a href='https://syp-nystrategy.typeform.com/to/eupY6hSO'>here</a></p>
 
 <style>
   .top {
