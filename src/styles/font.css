@@ -17,21 +17,21 @@
 */
 
 @font-face {
-	font-family: 'National 2 Web';
-	src: url('https://pudding.cool/assets/fonts/national/National2Web-Regular.woff2') format('woff2');
-	font-weight: 500;
-	font-style: normal;
-	font-stretch: normal;
-	font-display: swap;
+  font-family: "National 2 Web";
+  src: url("https://pudding.cool/assets/fonts/national/National2Web-Regular.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'National 2 Web';
-	src: url('https://pudding.cool/assets/fonts/national/National2Web-Bold.woff2') format('woff2');
-	font-weight: 700;
-	font-style: normal;
-	font-stretch: normal;
-	font-display: swap;
+  font-family: "National 2 Web";
+  src: url("https://pudding.cool/assets/fonts/national/National2Web-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 
 /*
@@ -86,21 +86,21 @@
 */
 
 @font-face {
-	font-family: 'Tiempos Text Web';
-	src: url('https://pudding.cool/assets/fonts/tiempos/TiemposTextWeb-Regular.woff2') format('woff2');
-	font-weight: 500;
-	font-style: normal;
-	font-stretch: normal;
-	font-display: swap;
+  font-family: "Tiempos Text Web";
+  src: url("https://pudding.cool/assets/fonts/tiempos/TiemposTextWeb-Regular.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Tiempos Text Web';
-	src: url('https://pudding.cool/assets/fonts/tiempos/TiemposTextWeb-Bold.woff2') format('woff2');
-	font-weight: 700;
-	font-style: normal;
-	font-stretch: normal;
-	font-display: swap;
+  font-family: "Tiempos Text Web";
+  src: url("https://pudding.cool/assets/fonts/tiempos/TiemposTextWeb-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 
 /*
@@ -109,13 +109,36 @@
 ********************
 */
 
-/*
 @font-face {
-	font-family: 'Tiempos Headline Web';
-	src: url('https://pudding.cool/assets/fonts/tiempos/TiemposHeadlineWeb-Regular.woff2') format('woff2');
-	font-weight: 500;
-	font-style: normal;
-	font-stretch: normal;
-	font-display: swap;
+  font-family: "Tiempos Headline Web";
+  src: url("https://pudding.cool/assets/fonts/tiempos/TiemposHeadlineWeb-Regular.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
+
+/*
+********************
+	Calibre
+********************
 */
+
+@font-face {
+  font-family: "Calibre-Regular";
+  src: url("static/assets/fonts/calibre.Calibre-Regular.otf") format("otf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Calibre-Bold";
+  src: url("static/assets/fonts/calibre.Calibre-Bold.otf") format("otf");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
