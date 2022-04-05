@@ -35,7 +35,7 @@
 
   <meta name="robots" content="max-image-preview:large" />
 
-  <link rel="icon" href="https://www.sypartners.com/" />
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/a/ad/BlkadD.jpg" />
   <!-- <link rel="icon" href="../static/assets/square.jpeg" /> -->
 
 
