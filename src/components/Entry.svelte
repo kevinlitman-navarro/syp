@@ -3,12 +3,10 @@
   export let data;
   const placeholder = "–";
   let keys = Object.keys(data);
-  console.log(keys);
+
   let key;
   if (data) {
     for (key of keys) {
-      console.log(key);
-      console.log(data[key]);
       if (data[key] == "#N/A") {
         console.log("got it");
         data[key] = "–";
