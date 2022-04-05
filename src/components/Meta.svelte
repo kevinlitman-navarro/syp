@@ -35,8 +35,8 @@
 
   <meta name="robots" content="max-image-preview:large" />
 
-  <!-- <link rel="canonical" href="https://www.sypartners.com/" /> -->
-  <link rel="" src="../static/assets/square.jpeg" />
+  <link rel="icon" href="https://www.sypartners.com/" />
+  <!-- <link rel="icon" href="../static/assets/square.jpeg" /> -->
 
 
   {#each preloadFont as href}
