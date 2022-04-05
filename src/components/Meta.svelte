@@ -8,7 +8,7 @@
 
 <svelte:head>
   <title>{title}</title>
-  <!-- <meta http-equiv="refresh" content="5" /> -->
+  <meta http-equiv="refresh" content="300" />
 
   <meta name="description" content={description} />
   <meta name="author" content="The Pudding" />

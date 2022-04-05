@@ -1,5 +1,4 @@
 <script>
-  import rows from "../data/sheet.csv";
   export let data;
   const placeholder = "–";
   let keys = Object.keys(data);
@@ -29,6 +28,8 @@
 
 <!-- {/if} -->
 <style>
+
+ 
   h1 {
     color: #fa9f4b;
     /* position: absolute; */
@@ -44,12 +45,14 @@
     background-color: #ffffff;
     width: 100%;
     height: 1px;
+    margin-top: 4em;
+    margin-bottom: 4em;
   }
 
   .eyebrow {
     font-family: var(--eyebrow);
     font-size: 0.8em;
-    margin-bottom: 0;
+    margin-bottom: 1em;
   }
 
   .blurb {

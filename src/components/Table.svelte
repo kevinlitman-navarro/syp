@@ -19,4 +19,8 @@
       width: 19em;
     }
   }
+
+  .container>line:last-of-type {
+    display: none;
+  }
 </style>

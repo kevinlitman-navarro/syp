@@ -14,4 +14,12 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+
+  a:link {
+  color: #fa9f4b;
+  }
+
+  a:visited {
+  color: #fa9f4b;
+  }
 </style>
